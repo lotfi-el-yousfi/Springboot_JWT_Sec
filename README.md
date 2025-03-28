@@ -143,6 +143,8 @@ curl http://localhost:9000/api/users \
 MIT – free to use and modify.
 ```
 
----
-
-Let me know if you want this saved as a real `README.md` file or zipped with your code!
+so now the big picture in my mind 
+i have to make a user table and implement userdetails for extra things  (virtual )
+make a service with userdetailsservice implementation to give what secrity framework need to load user from db with a jpa repo finduserbyname
+a filter onceperrequest that check tocken ( withch means a jwt util class for helping methods ) 
+config   disable crsf + config cors +  (open login,register => controller for toese ) + register filter + optional forbiden and access denid  (filter class for this ) + AuthentificationManager and PassworEncoder
